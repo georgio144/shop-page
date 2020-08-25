@@ -4,11 +4,50 @@
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Document</title>
+   <link rel="stylesheet" href="css/style.css">
+   <title>Страница магазина</title>
 </head>
 
 <body>
+   <div class="head-wrapper">
+      <!--верх магазина-->
+      <div class="head-menu">
+         <nav class="head">
+            <li><a href="#">Главная</a></li>
+            <li><a href="#">Магазин</a></li>
+         </nav>
+         <div class="head-title">
+            <a href="#">Магазин</a>
+         </div>
+         <div class="search-console">
+            <div class="search-description">Отображаются все 12 результатов</div>
+            <div class="search-select">
+               <select class="livesearch">
+                  <option selected="selected">По популярности</option>
+                  <option>Женские шмотки</option>
+                  <option>Мужские шмотки</option>
+                  <option>Трусы</option>
+                  <option>Кепки</option>
+                  <option>Обувь</option>
+                  <option>Акссесуары</option>
+                  <option>Сумки</option>
+                  <option>Рюкзаки</option>
+               </select>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!--конец верха магазина-->
+   <div class="wrapper">
+      <div class="content">
 
+      </div>
+   </div>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.jquery.min.js"></script>
+   <script type="text/javascript">
+      $(".livesearch").chosen();
+   </script>
 </body>
 
 </html>
