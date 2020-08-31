@@ -41,7 +41,7 @@
 }
 .products-items {
    display: grid;
-   grid-template-columns: repeat(4, minmax(240px, 1fr));
+   grid-template-columns: repeat(4, minmax(auto, 1fr));
 }
 .products-item {
    display: grid;

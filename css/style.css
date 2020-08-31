@@ -116,8 +116,8 @@ h6 {
 .products-items {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (minmax(240px, 1fr))[4];
-      grid-template-columns: repeat(4, minmax(240px, 1fr));
+  -ms-grid-columns: (minmax(auto, 1fr))[4];
+      grid-template-columns: repeat(4, minmax(auto, 1fr));
 }
 
 .products-item {
